@@ -1,7 +1,16 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import { Poppins } from "next/font/google"; // Menambahkan import untuk Poppins
 import "./globals.css";
 
+// Mengonfigurasi font Poppins
+const poppins = Poppins({
+  variable: "--font-poppins", // Menambahkan variabel CSS untuk Poppins
+  subsets: ["latin"], // Menambahkan subset latin
+  weight: ["300", "400", "500", "600", "700"], // Menentukan bobot font yang ingin digunakan
+});
+
+// Mengonfigurasi font Geist dan Geist_Mono
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -25,7 +34,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${poppins.variable} antialiased`} // Menambahkan Poppins ke class body
       >
         {children}
       </body>
