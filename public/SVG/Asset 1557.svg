@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 287.72 54.14">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f9f9f9;
+        stroke: #000;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        font-family: Poppins-Medium, Poppins;
+        font-size: 15.81px;
+        font-weight: 500;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <path d="M273.02,6.7H19.15c-8.12,0-14.7,6.58-14.7,14.7v5.51c0,4.61,2.12,8.72,5.44,11.41l-4.13,15.81,18.1-12.52h249.16c8.12,0,14.7-6.58,14.7-14.7v-5.51c0-8.12-6.58-14.7-14.7-14.7Z"/>
+      <path class="cls-1" d="M269.07.5H15.2C7.08.5.5,7.08.5,15.2v5.51c0,4.61,2.12,8.72,5.44,11.41l-4.13,15.81,18.1-12.52h249.16c8.12,0,14.7-6.58,14.7-14.7v-5.51c0-8.12-6.58-14.7-14.7-14.7Z"/>
+      <text class="cls-2" transform="translate(13.85 24.18)"><tspan x="0" y="0">Traveling bareng foxowedding?</tspan></text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 316.99 111.48">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 19.7px;
+      }
+
+      .cls-1, .cls-2 {
+        font-family: Poppins-Medium, Poppins;
+        font-weight: 500;
+      }
+
+      .cls-2 {
+        font-size: 32.83px;
+      }
+
+      .cls-3 {
+        fill: none;
+        stroke: #000;
+        stroke-miterlimit: 10;
+        stroke-width: 3px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <text class="cls-1" transform="translate(74.71 39.89)"><tspan x="0" y="0">Photobooth</tspan></text>
+      <text class="cls-2" transform="translate(73.62 79.84)"><tspan x="0" y="0">Rp4.000.000</tspan></text>
+      <path class="cls-3" d="M47.76,1.5l251.36,1.36c9.05.93,15.01,6.23,15.98,15.49-1.84,24.23,1.95,51.58-.42,75.45-1.01,10.19-7.32,15.88-17.51,16.18l-248.65-1.4c-4.1-.36-7.86-1.01-11.2-3.65-10.14-13.02-22.17-25.82-31.81-39.18-5.69-7.88-5.14-14.8.52-22.44C15.25,30.83,26.7,19.3,35.9,6.71c3.11-3.43,7.4-4.85,11.86-5.2ZM33.68,62.24c6.21,4.32,15.37-3.22,12.06-10.58-5.93-13.17-25.04,1.55-12.06,10.58Z"/>
+    </g>
+  </g>
+</svg>

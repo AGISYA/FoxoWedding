@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 574.91 91.71">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: 0em;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        font-family: Poppins-Regular, Poppins;
+      }
+
+      .cls-4 {
+        font-family: Poppins-Italic, Poppins;
+        font-style: italic;
+      }
+
+      .cls-5 {
+        font-size: 24px;
+      }
+
+      .cls-3 {
+        fill: #ce2121;
+        letter-spacing: 0em;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <text class="cls-5" transform="translate(0 20.38)"><tspan class="cls-2"><tspan x="0" y="0">Ada yang pernah melihat berita ini?</tspan></tspan><tspan class="cls-2" x="0" y="28.8">Kami melakukan </tspan><tspan class="cls-4" x="207.43" y="28.8">Back Up</tspan><tspan class="cls-1" x="304.87" y="28.8" xml:space="preserve"> sampai </tspan><tspan class="cls-3" x="409.51" y="28.8">5 kali</tspan><tspan class="cls-2"><tspan x="0" y="57.6">untuk mengantisipasi terjadinya kehilangan file.</tspan></tspan></text>
+  </g>
+</svg>

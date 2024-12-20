@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 670.67 86.61">
+  <defs>
+    <style>
+      .cls-1 {
+        font-family: Poppins-SemiBold, Poppins;
+        font-weight: 600;
+        letter-spacing: 0em;
+      }
+
+      .cls-2 {
+        font-size: 60px;
+      }
+
+      .cls-3 {
+        font-family: Poppins-Medium, Poppins;
+        font-weight: 500;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <text class="cls-2" transform="translate(0 51.03)"><tspan class="cls-3" x="0" y="0">Wedding </tspan><tspan class="cls-1" x="289.38" y="0">Rp6.000.000</tspan></text>
+  </g>
+</svg>

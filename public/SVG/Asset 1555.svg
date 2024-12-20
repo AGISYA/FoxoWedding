@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 354.91 56.77">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f9f9f9;
+        stroke: #000;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        font-family: Poppins-Medium, Poppins;
+        font-size: 15.81px;
+        font-weight: 500;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <path d="M340.21,6.7L19.15,9.33c-8.12,0-14.7,6.58-14.7,14.7v5.51c0,4.61,2.12,8.72,5.44,11.41l-4.13,15.81,18.1-12.52,316.36-2.64c8.12,0,14.7-6.58,14.7-14.7v-5.51c0-8.12-6.58-14.7-14.7-14.7Z"/>
+      <path class="cls-1" d="M336.27.5L15.2,3.14C7.08,3.14.5,9.72.5,17.84v5.51c0,4.61,2.12,8.72,5.44,11.41l-4.13,15.81,18.1-12.52,316.36-2.64c8.12,0,14.7-6.58,14.7-14.7v-5.51c0-8.12-6.58-14.7-14.7-14.7Z"/>
+      <text class="cls-2" transform="translate(31.6 24.84)"><tspan x="0" y="0">Foto di rumah atau di luar angkasa?</tspan></text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 888.87 127.76">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: .22em;
+      }
+
+      .cls-2, .cls-3 {
+        font-size: 48px;
+      }
+
+      .cls-4 {
+        font-size: 45px;
+      }
+
+      .cls-3, .cls-5 {
+        font-family: Poppins-Bold, Poppins;
+        font-weight: 700;
+      }
+
+      .cls-6 {
+        letter-spacing: .08em;
+      }
+
+      .cls-7 {
+        letter-spacing: .07em;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <text class="cls-3" transform="translate(0 40.92)"><tspan class="cls-1" x="0" y="0">GARANS</tspan><tspan x="267.71" y="0">I</tspan><tspan x="0" y="39">KEAMANAN</tspan></text>
+      <text class="cls-5" transform="translate(607 40.92)"><tspan class="cls-2"><tspan class="cls-7" x="0" y="0">KEPUASA</tspan><tspan x="245.77" y="0">N</tspan></tspan><tspan class="cls-4"><tspan x="0" y="39">HASIL</tspan><tspan class="cls-6" x="128.47" y="39"> </tspan><tspan x="141.83" y="39">AKHIR</tspan></tspan></text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 286.88 94.41">
+  <defs>
+    <style>
+      .cls-1 {
+        font-family: Poppins-SemiBold, Poppins;
+        font-weight: 600;
+        letter-spacing: 0em;
+      }
+
+      .cls-2 {
+        font-family: Poppins-Regular, Poppins;
+      }
+
+      .cls-3 {
+        font-size: 36px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <text class="cls-3" transform="translate(0 30.62)"><tspan class="cls-2" x="0" y="0">Buruan </tspan><tspan class="cls-1" x="138.56" y="0">Booking</tspan><tspan class="cls-2"><tspan x="8.39" y="43.2">sekarang juga!</tspan></tspan></text>
+  </g>
+</svg>

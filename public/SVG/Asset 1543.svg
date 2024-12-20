@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 307.37 108.15">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 31.83px;
+      }
+
+      .cls-1, .cls-2 {
+        font-family: Poppins-Medium, Poppins;
+        font-weight: 500;
+      }
+
+      .cls-2 {
+        font-size: 19.1px;
+      }
+
+      .cls-3 {
+        fill: none;
+        stroke: #000;
+        stroke-miterlimit: 10;
+        stroke-width: 3px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <text class="cls-2" transform="translate(72.47 38.72)"><tspan x="0" y="0">Prewedding</tspan></text>
+      <text class="cls-1" transform="translate(71.41 77.44)"><tspan x="0" y="0">Rp4.000.000</tspan></text>
+      <path class="cls-3" d="M46.34,1.5l243.66,1.32c8.78.9,14.55,6.04,15.49,15.01-1.78,23.49,1.89,50-.41,73.14-.98,9.87-7.09,15.39-16.98,15.68l-241.03-1.36c-3.98-.35-7.62-.97-10.86-3.54-9.83-12.62-21.49-25.03-30.83-37.98-5.52-7.64-4.98-14.34.5-21.75C14.83,29.93,25.93,18.76,34.84,6.55c3.02-3.32,7.18-4.7,11.5-5.05ZM32.7,60.38c6.02,4.18,14.9-3.12,11.69-10.26-5.75-12.77-24.27,1.5-11.69,10.26Z"/>
+    </g>
+  </g>
+</svg>

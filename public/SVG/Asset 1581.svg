@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 305.69 15.63">
+  <defs>
+    <style>
+      .cls-1 {
+        font-family: Poppins-Regular, Poppins;
+        font-size: 11px;
+        text-decoration: underline;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <text class="cls-1" transform="translate(0 9.34)"><tspan x="0" y="0">Home</tspan></text>
+      <text class="cls-1" transform="translate(64.52 9.34)"><tspan x="0" y="0">Photos</tspan></text>
+      <text class="cls-1" transform="translate(131.28 9.34)"><tspan x="0" y="0">Videos</tspan></text>
+      <text class="cls-1" transform="translate(194.78 9.34)"><tspan x="0" y="0">Booking</tspan></text>
+      <text class="cls-1" transform="translate(261 9.34)"><tspan x="0" y="0">Contact</tspan></text>
+    </g>
+  </g>
+</svg>
