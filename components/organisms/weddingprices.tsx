@@ -15,7 +15,7 @@ export default function WeddingPrices() {
             Setelah melihat semuanya
             <br /> pasti kalian penasaran sama <br /> harganya!
           </h1>
-          <div className="md:flex">
+          <div className="md:flex md:justify-center">
             <div className=" justify-center gap-16 ">
               {/* Prewedding Price Tag */}
               <div className="relative w-[30rem]  md:w-[40rem] h-64  -mt-20 -mx-32 md:-mx-20   ">
@@ -33,7 +33,7 @@ export default function WeddingPrices() {
               </div>
 
               {/* Wedding Price Tag */}
-              <div className="relative w-[30rem] md:w-[50rem] h-64 md:-mx-0 -mx-32  -mt-28 z-10  ">
+              <div className="relative w-[30rem] md:w-[40rem] h-64 md:-mx-0 -mx-32  -mt-28 z-10  ">
                 <Image
                   alt="Wedding price tag"
                   className="w-full h-full object-cover rounded-lg"
@@ -42,13 +42,13 @@ export default function WeddingPrices() {
                   height={5000}
                 />
                 <div className="absolute inset-0 flex flex-col items-center justify-center">
-                  <p className="text-xl md:text-2xlfont-bold">Wedding</p>
+                  <p className="text-xl md:text-2xl font-bold">Wedding</p>
                   <p className="text-xl md:text-2xl font-bold">Rp6.000.000</p>
                 </div>
               </div>
 
               {/* Photobooth Price Tag */}
-              <div className="relative w-[30rem] h-64 -mt-28 -mx-32  md:-mx-10">
+              <div className="relative w-[30rem]  md:w-[40rem] h-64  -mt-20 -mx-32 md:-mx-20 ">
                 <Image
                   alt="Photobooth price tag"
                   className="w-full h-full object-cover rounded-lg"
