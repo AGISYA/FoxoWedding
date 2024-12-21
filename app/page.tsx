@@ -1,6 +1,7 @@
 "use client";
 import React, { useState, useEffect, useRef } from "react";
 import Link from "next/link";
+import { FaArrowUp } from "react-icons/fa"; // Ikon dari React Icons
 import Hero from "@/components/organisms/hero";
 import PhotoboothWedding from "@/components/organisms/photobooth-wedding";
 import WeddingDocumentation from "@/components/organisms/pre-wedding-documentation";
@@ -15,9 +16,15 @@ import Footer from "@/components/organisms/footer";
 export default function Home() {
   const [isScrolled, setIsScrolled] = useState(false); // Mengatur background navbar
   const [isMenuOpen, setIsMenuOpen] = useState(false); // Mengatur menu mobile
+  const [showScrollTop, setShowScrollTop] = useState(false); // Untuk tombol scroll ke atas
   const heroRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
+    const handleScroll = () => {
+      // Atur visibilitas tombol scroll ke atas
+      setShowScrollTop(window.scrollY > 300);
+    };
+
     const observer = new IntersectionObserver(
       ([entry]) => {
         setIsScrolled(!entry.isIntersecting); // Navbar transparan jika Hero terlihat
@@ -29,19 +36,26 @@ export default function Home() {
       observer.observe(heroRef.current);
     }
 
+    window.addEventListener("scroll", handleScroll);
+
     return () => {
       if (heroRef.current) {
         observer.unobserve(heroRef.current);
       }
+      window.removeEventListener("scroll", handleScroll);
     };
   }, []);
+
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
 
   return (
     <div className="flex flex-col min-h-screen">
       {/* Navbar */}
       <nav
         className={`fixed w-full top-0 z-50 transition-all ${
-          isScrolled ? "bg-amber-800 shadow-lg" : "bg-transparent"
+          isScrolled ? "bg-amber-800 opacity-60 shadow-lg" : "bg-transparent"
         }`}
       >
         <div className="container mx-auto flex justify-between items-center p-4">
@@ -123,6 +137,17 @@ export default function Home() {
       <div id="booking">
         <Booking />
       </div>
+
+      {/* Scroll to Top Button */}
+      {showScrollTop && (
+        <button
+          onClick={scrollToTop}
+          className="fixed bottom-6 right-6 bg-amber-800 text-white p-3 rounded-full shadow-lg hover:bg-amber-600 transition-all"
+        >
+          <FaArrowUp size={20} />
+        </button>
+      )}
+
       {/* Footer */}
       <Footer />
     </div>

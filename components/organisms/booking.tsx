@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function Booking() {
   return (
-    <div className="bg-white text-black flex flex-col items-center -mt-12 min-h-screen justify-center p-4">
+    <div className="bg-white text-black flex flex-col items-center -mt-20 md:-mt-36 min-h-screen justify-center p-4">
       <Head>
         <title>Booking Page</title>
         <link
@@ -41,7 +41,7 @@ export default function Booking() {
         </p>
       </div>
       <Link
-        href="https://wa.me/+6285729236337"
+        href="https://wa.me/+6289505895274?text=Hallo FoxoWedding"
         target="_blank"
         rel="noopener noreferrer"
         className="mt-10 bg-red-700 text-white text-xs md:text-2xl lg:text-2xl font-bold py-3 px-6 lg:py-4 lg:px-8 rounded-full transition-transform transform hover:scale-105"

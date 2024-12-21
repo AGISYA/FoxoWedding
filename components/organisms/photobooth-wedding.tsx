@@ -2,21 +2,21 @@ import Image from "next/image";
 
 export default function PhotoboothWedding() {
   return (
-    <div className="bg-white flex items-center justify-center min-h-screen">
+    <div className="bg-white flex  items-center justify-center min-h-screen">
       <div className="text-center">
-        <h1 className="text-3xl font-bold text-black mb-4">
+        <h1 className="text-5xl font-bold text-black md:-mt-56">
           Photobooth wedding?
         </h1>
-        <div className="flex justify-center mb-4">
+        <div className="flex justify-center mb-4 md:-mt-24">
           <Image
             src="/images/photobooth.png"
             alt="Group of people posing in a photobooth at a wedding"
             className="rounded-lg "
-            height={500}
-            width={500}
+            height={700}
+            width={700}
           />
         </div>
-        <p className="text-base text-black italic">
+        <p className="md:text-base text-black italic -mt-20">
           Kita expert banget nih, pokoknya paketan kita sampe acara kamu beres.
         </p>
       </div>
